@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang='en'>
+
+	<head>
+		<title></title>
+		<meta charset='utf-8'>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+
+		* {
+			margin:0;
+			padding:0;
+		}
+
+		img {
+			width: 200px;
+		}
+
+		body {
+			background-image: url('http://fondopantalla.com.es/file/421/2560x1440/crop/fondo-de-pantalla-degradado-azul.jpg');
+			background-size: cover;
+			box-sizing: border-box;
+			font-weight:bold;
+		}
+		
+		header {
+			height:200px;
+			background-image: url('https://thumbs.dreamstime.com/b/el-rayo-del-sol-naciente-o-del-sol-sol-estall%C3%B3-el-fondo-de-papel-retro-80118743.jpg');
+			background-size: 100% 100%;
+		}
+		
+		header nav {
+			display:flex;
+			justify-content: center;
+			padding:40px;
+		}
+
+		header nav a {
+			margin-left: 40px;
+			text-decoration: none;
+			color:black;
+			font-weight: bold;
+			font-size: 40px;
+
+		}
+
+		header nav .boca:hover {
+			color:blue;
+		}
+		
+		header nav .river:hover {
+			color:red;
+		}
+		
+		header nav .huracan:hover {
+			color:white;
+		}
+		
+		main {
+			margin:20px;
+		}
+
+		main::after {
+				display:block;
+				clear:both;
+				content:"";
+		}
+
+		
+		h1 {
+			text-align:center;
+			color:blue;
+			
+		}
+
+		h1, h2 {
+			margin-top:40px;
+		}
+
+		h2 {
+			margin-top:30px;
+			color:#d1c134;
+		}
+
+		p {
+			margin-top:15px;
+		}
+
+		main .section1 ol {
+			margin-top:15px;
+			text-align:center;
+		}
+
+		main .section1 ol .lista {
+			list-style: none;
+		}
+
+		main .section1 ol .lista a {
+			color:white;
+			font-weight: bold;
+		}	
+
+		main .section2 .imagen1 {
+			float:right;
+			margin:0 15px;
+			width:200px;
+			border:2px solid white;	
+		}
+
+
+		main .section3 .imagen2 {
+			position:absolute;
+			height:110px;
+			width:270px;
+			z-index: -1;
+			left:75%;
+			top:111%;
+			opacity:0.7;
+			border:2px solid white;
+
+		}
+
+		main .section4 .imagen3 {
+				float:left;
+				height:200px;
+				margin-right:10px;
+				margin-top:10px;
+				border:2px solid white;
+		}
+
+		main .section4 .imagen4 {
+				float:right;
+				height:200px;
+				margin-left:10px;
+				margin-top:10px;
+				border:2px solid white;
+		}
+
+		main .section5 .imagen5 {
+			width:50%;
+			display:block;
+			margin:10px auto;
+			border:2px solid white;
+		}
+
+		footer {
+			border-top:2px solid blue; 
+			text-align: center;
+			padding:20px;
+			font-weight: bold;
+		
+		}	
+
+		@media (max-width: 767px) {
+			header nav {flex-direction:column;}
+			header nav a {font-size:20px;}
+			body {font-size:75%;}
+			main .section5 .imagen5 {width:100%;}
+			main .section4 .imagen3, main .section4 .imagen4 {width:100%; margin:10px auto;}
+			main .section3 .imagen2 {position: relative;width:100%;left:0%; z-index: -1; margin:10px auto;}
+			main .section2 .imagen1 {width:100%; margin:10px auto;} 
+		}	
+
+
+		</style>
+		
+	</head>	
+	<body>
+		<header>
+			<nav>
+				<a href='#'>Home</a>      
+				<a href='#' class='boca'>Boca Juniors</a>       
+				<a href='#' class='huracan'>Huracan</a>       
+				<a href='#' class='river'>River Plate</a>        
+				<a href='#' class='contacto'>Contacto</a>
+			</nav>	 
+		</header>
+
+		<main>
+			<section class='section1'>
+			<h1>El Deporte más Querido</h1>	
+				<ol class='ol'>
+					<li class='lista'><a href='#fa'>Futbol Argentino</a></li>
+					<li class='lista'><a href='#afa'>Asociacion de Futbol Argentino (A.F.A)</a></li>
+					<li class='lista'><a href='#bb'>Barras Bravas </a></li>
+					<li class='lista'><a href='#lm'>Lionel Messi</a></li>
+				</ol>
+			</section>	
+
+			<section class='section2'>
+				<h2 id='fa'>Futbol Argentino</h2>
+
+				<p>El fútbol es el deporte más popular en Argentina, el que tiene más jugadores federados (540.000 en 2002, equivalente al 1,4% de la población), y el más practicado por la población masculina y femenina en forma recreativa o no federada, desde la niñez, en la que alcanza a la casi totalidad, hasta los sesenta años.1​ Nueve de cada diez habitantes declaran ser simpatizantes de algún equipo de fútbol. En el habla popular del país, también se suele utilizar las expresiones «fúbol», «fulbo» o «chuti» (esta última en el noroeste) para designar al deporte. Asimismo, resulta muy común utilizar la expresión «jugar a la pelota», en referencia a la práctica del fútbol.</p>
+
+					<img class='imagen1' src='http://www.revistacabal.coop/sites/www.revistacabal.coop/files/styles/nota_detalle/public/futbol%20argentino_1.jpg?itok=AfNbrTnm'>
+	
+
+				<p>Además, a nivel de selecciones mayores es una de las tres selecciones con más copas oficiales de la historia, con diecinueve títulos,n 2​ contándose las dos Copas Mundiales, las catorce Copas América y la Copa Confederaciones, a las que se deben sumar dos competencias interconfederativas: el Campeonato Panamericano de Fútbol de 1960 y la Copa Artemio Franchi de 1993.</p>
+
+				<p>Los clubes de fútbol argentinos son los que han logrado mayor cantidad de títulos internacionales en el mundo (69), siendo los que más veces obtuvieron la Copa Intercontinental (9) y la Libertadores (24). Sumando los éxitos deportivos de los representativos nacionales y los logros oficiales de los clubes a nivel internacional, el fútbol argentino masculino, con 117 torneos oficiales, es el segundo más laureado del mundo, detrás de Brasil que posee 123.11​.</p>
+			</section>	
+
+			<section class='section3'>
+				<h2 id='afa'>Asociacion de Futbol Argentino (A.F.A)</h2>
+
+				<p>Es la institución responsable de organizar y regular las distintas selecciones nacionales, y los campeonatos oficiales, en todas las modalidades, incluidas las ramas de futsal, playa y femenina, del deporte en ese país. No obstante, a partir de la temporada 2017-18, ha delegado el manejo de la Primera División a la Superliga Argentina, ente autárquico asociado contractualmente a la entidad, que se desenvuelve con su propio estatuto, lo que, en los hechos, limita la capacidad deportiva y económica de la Asociación.</p>
+
+				<img class='imagen2' src='https://pbs.twimg.com/profile_images/806223847557124096/rwtoQ0Cd.jpg'>
+					
+				<p>Fue fundada por Alejandro Watson Hutton en Buenos Aires, el 21 de febrero de 1893, con el nombre de Argentine Association Football League, siendo la más antigua del continente, luego de la extinta Argentine Association Football League de 1891, la que fue disuelta luego de un año de vida y no es reconocida como su predecesora. Tras un proceso de cambio de nombres, escisiones, fusiones y castellanización, adoptó en 1934 la denominación Asociación del Football Argentino y posteriormente, en 1946, su nombre definitivo. Está afiliada a la FIFA desde 1912 y a la Conmebol, de la que es miembro fundador, desde 1916.</p>
+			</section>	
+
+			<section class='section4'>
+				<h2 id='bb'>Barras Bravas</h2>
+
+				<p>Fueron identificadas por la sociedad como grupos organizados violentos en 1958 (algunos años después de la conformación de las primeras), tras la muerte del espectador Alberto Mario Linker a manos de la policía en un partido entre Vélez Sarsfield y River Plate. Tras el hecho, la prensa denominó como una barra fuerte al primero al que identificó como un grupo organizado violento, en tanto que el término barra brava como denominación para los mismos surgió, también desde la prensa argentina, en la década de 1960, aunque se popularizó en la década de 1980.</p>
+
+					<img class='imagen3' src='http://i.imgur.com/kPPEg8i.jpg'>
+					<img class='imagen4' src='https://www.filo.news/__export/1495451030534/sites/claro/img/2017/05/22/river_seccion.jpg_525981578.jpg'>	
+					
+				<p>Al comienzo no eran grupos muy numerosos ni excesivamente violentos, pero con el paso de los años, las barras bravas fueron creciendo y tomando cada vez más poder dentro de los clubes, llegando al punto de haber algunas que han decidido en ocasiones quién sería el presidente del mismo u obligando a dirigentes a renunciar a sus puestos. Pasaron no solo a protagonizar hechos de violencia, sino a realizar actividades ilegales con el objetivo de obtener un rédito económico (el cual lo suelen controlar solo los miembros más importantes, ya que las barras bravas poseen estructuras jerárquicas), como ser la extorsión a jugadores y dirigentes, venta y tráfico de drogas, robos, etc., además de las actividades ilegales que puedan realizar los integrantes de las barras bravas de forma individual y ajena a su accionar dentro de las mismas. También suelen brindar servicios a dirigentes políticos y sindicales que las contratan como grupos de choque (ante posibles enfrentamientos con seguidores de otros partidos políticos o sindicatos durante actos, movilizaciones o protestas), guardaespaldas, etc. También son financiadas por los propios dirigentes de los clubes, que en ocasiones le dan sueldos a algunos de sus miembros, o porcentajes de las ganancias por ventas de jugadores, y, entre varios negocios más, suelen exigir que los vendedores ambulantes que los días de partido trabajan en el estadio y los alrededores, les brinden un porcentaje de sus ganancias, a cambio de dejarlos trabajar y protegerlos de robos.</p>
+			</section>	
+
+			<section class='section5'>
+				<h2 id='lm'>Lionel Messi</h2>
+
+				<p>Lionel Andrés Messi Cuccittini (Rosario, 24 de junio de 1987), conocido como Leo Messi, es un futbolista argentino que juega como delantero o centrocampista y ha desarrollado toda su carrera en el F. C. Barcelona de la Primera División de España y en la selección argentina, de la que es capitán.</p>
+
+				<p>Considerado con frecuencia el mejor jugador del mundo y uno de los mejores de todos los tiempos. Es el primer futbolista en la historia que ha ganado, entre otras distinciones, cinco veces el Balón de Oro –un Balón de Oro y cuatro FIFA Balón de Oro– obteniendo los cuatro primeros de forma consecutiva; además de recibir cinco Botas de Oro. Con el Barcelona ha ganado 32 títulos, entre ellos, nueve de La Liga y cuatro de la Liga de Campeones de la UEFA, así como seis títulos de la Copa del Rey.</p>
+
+				<p>Goleador prolífico, ostenta, entre otros, los récords por más goles en una temporada y un año calendario, máximo goleador de La Liga, la Supercopa de España, la Supercopa de Europa, y jugador no europeo con más goles en la Liga de Campeones de la UEFA; además de máximo goleador del F.C. Barcelona y de la Selección Argentina. Es uno de los futbolistas con más asistencias, desde que se tienen registros, en partidos oficiales.</p>
+
+					<img class='imagen5' src='https://www.eluniverso.com/sites/default/files/styles/powgallery_800/public/fotos/2017/12/messiargentina_0.jpg?itok=wWskIRkn'>
+				
+			</section>	
+
+			<footer>
+				Todos los Derechos Reservados - Produccion Duke S.A - 2018
+			</footer>	
+
+		</main>	
+
+	<script>
+			nombre = prompt('Ingrese su nombre: ');
+			apellido = prompt('Ingrese su apellido: ');
+			futbol = confirm('Si te gusta el futbol pone "aceptar"');
+		
+
+			if (futbol) {
+				alert('Hola! ' + nombre + ' ' + apellido + ', ¡Bienvenido a mi página Web!');
+			}else{
+				alert('Bueno....' + nombre + ' ' + apellido + ', te va a gustar igual así que pone aceptar!');
+			}
+
+	</script>	
+
+	</body>
+</html>	
